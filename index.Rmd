@@ -1,0 +1,108 @@
+---
+title: "Student Portfolio"
+author: "John Drew"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    number_sections: false
+    df_print: paged
+---
+
+<style type="text/css">
+/* Title */
+h1.title {
+  color: #3A2C29;
+  font-size:40px;
+  font-weight: bold;
+}
+/* Level 1 header */
+h1 {
+  color: #3A2C29;
+  font-size:30px;
+}
+/* Level 2 header */
+h2 {
+  color: #C9C675;
+  font-size:25px;
+}
+/* Level 3 header */
+h3 {
+  color: #C9C675;
+  font-size:20px;
+}
+/* Table of contents */
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #C9C675;
+    border-color: #337ab7;
+</style>
+
+```{r setup, include=FALSE}
+library(knitr)
+```
+
+# The CONSENT Act
+
+```{r, out.width = "600px", echo=FALSE}
+knitr::include_graphics("https://i0.wp.com/digiday.com/wp-content/uploads/2017/10/29723649810_8cb4a06489_b.jpg?resize=1030%2C579&ssl=1")
+```
+
+```{r}
+
+```
+
+## Brief Overview
+
+  The Customer Online Notification for Stopping Edge-Provider Network Transgressions (CONSENT) Act is a currently proposed U.S federal law.  The CONSENT Act is one of many new pieces of legislation concerning Privacy.
+
+```{r}
+
+```
+
+
+# Policy Analysis
+
+The CONSENT Act targets edge providers, which defined by the FCC, includes any business that provides online content.  The main objective of the CONSENT Act is to provide better privacy protections for online consumers.  To do this, one of the main regulations in the Act is the requirement of “opt-in” agreements from users in order for the use of “sensitive information”.    The CONSENT Act would also require companies to store and protect the user data more responsibly, notify users of data breaches, and provide the ability for users to easily withdraw consent.  The CONSENT Act would require the Federal Trade Commission (FTC) to enforce such regulations.
+```{r}
+
+```
+
+# Stakeholders
+
+## Businesses Who Provide Online Services
+Businesses stand to be impacted the most if the CONSENT Act were passed.  They would likely have to recreate many marketing and data collection strategies.  New "opt-in" agreements would need to be drafted for any online business.  They would also have to commit both capital and human resources to providing withraw consent or inquiry requests from consumers.
+
+## Consumers of Online Services
+According to Pew Research, 81% of Americans feel like the have a lack of control over their data.  If the CONSENT Act passes, American consumers would gain control over their data and most likely benefit consumer and producer relationships.  Consumers would be given notice of when and what data companies are collecting about them.  The CONSENT Act would also protect consumers' right to use a service even if they do not give consent for data collection.
+
+## The FTC and FCC
+The FTC and FCC would be responsible for establishing and enforcing the regulations proposed under the CONSENT Act. The FTC would be responsible for deciding what information would be deemed "sensitive" and therefore need the consumer's consent.  
+
+
+```{r}
+
+```
+
+```{r, out.width = "400px", echo=FALSE}
+knitr::include_graphics("https://www.pewresearch.org/internet/wp-content/uploads/sites/9/2019/11/PI_2019.11.14_privacy_0-02-1.png")
+```
+
+# Why It's Important to Me
+
+The CONSENT Act is important to me because I believe it begins to address most of the essential data privacy needs of Americans.  Data privacy is a growing concern as more and more of people's lives become more integrated with the internet especially since data has become arguably the most valuable resource on the planet.  I also believe this is important because the CONSENT Act proposes similar regulations as the EU's GDPR legislation.  I am a strong believer in these types of regulations because, although I typically believe companies' innovation should not be regulated, it is in the best interest of citizens as a whole.  These regulations may also spark new innovation in the way companies collect data and interact with consumers.
+
+```{r}
+
+```
+# References
+
+https://www.insideprivacy.com/united-states/congress/senate-democrats-propose-consent-act/
+
+https://termly.io/resources/articles/new-internet-laws/#the-consent-act
+
+https://www.pewresearch.org/internet/2019/11/15/americans-and-privacy-concerned-confused-and-feeling-lack-of-control-over-their-personal-information/
+
+https://digiday.com/media/what-is-the-consent-act/
